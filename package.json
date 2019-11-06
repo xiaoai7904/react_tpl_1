@@ -1,0 +1,68 @@
+{
+  "name": "react_de",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.2",
+    "crypto-js": "^3.1.9-1",
+    "css-animation": "^1.5.0",
+    "css-loader": "^2.1.1",
+    "customize-cra": "^0.2.12",
+    "deep-diff": "^1.0.2",
+    "fastclick": "^1.0.6",
+    "intl": "^1.2.5",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "node-sass": "^4.12.0",
+    "number-precision": "^1.3.1",
+    "numeral": "^2.0.6",
+    "react": "^16.8.6",
+    "react-addons-perf": "^15.4.2",
+    "react-app-rewired": "^2.1.3",
+    "react-burger-menu": "^2.6.10",
+    "react-dom": "^16.8.6",
+    "react-intl": "^2.9.0",
+    "react-is": "^16.8.6",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-spinkit": "^3.0.0",
+    "react-sticky": "^6.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "shallowequal": "^1.1.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "sockjs-client": "^1.3.0",
+    "stompjs": "^2.3.3",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.3.0",
+    "worker-loader": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "dev": "react-app-rewired start",
+    "dev_8": "react-app-rewired start --url=http://1.1.1.1:0000",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
